@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Element Positioning</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        .static-box {
+            background-color: #ff4d4d;
+            position: static;
+        }
+
+        .relative-box {
+            background-color: #4dff4d;
+            position: relative;
+            left: 20px;
+            top: 20px;
+        }
+
+        .absolute-box {
+            background-color: #4d4dff;
+            position: absolute;
+            top: 50px;
+            right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Element Positioning Demo</h2>
+
+    <div class="box static-box">Static</div>
+    <div class="box relative-box">Relative</div>
+    <div class="box absolute-box">Absolute</div>
+
+</body>
+
+</html>
