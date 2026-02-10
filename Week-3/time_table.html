@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Class Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            border: 1px solid #999;
+            padding: 12px 20px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e8f5e9;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        tr:hover {
+            background-color: #c8e6c9;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Class Timetable (Monday)</h1>
+    <table border="1">
+        <tr>
+            <th>Time Slot</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td>09:00 AM - 10:00 AM</td>
+            <td>Mathematics</td>
+        </tr>
+        <tr>
+            <td>10:00 AM - 11:00 AM</td>
+            <td>Physics</td>
+        </tr>
+        <tr>
+            <td>11:00 AM - 11:15 AM</td>
+            <td><strong>Break</strong></td>
+        </tr>
+        <tr>
+            <td>11:15 AM - 12:15 PM</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr>
+            <td>12:15 PM - 01:15 PM</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>01:15 PM - 02:00 PM</td>
+            <td><strong>Lunch Break</strong></td>
+        </tr>
+        <tr>
+            <td>02:00 PM - 03:00 PM</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>03:00 PM - 04:00 PM</td>
+            <td>Physical Education</td>
+        </tr>
+    </table>
+</body>
+
+</html>

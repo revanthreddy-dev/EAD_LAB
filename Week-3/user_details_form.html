@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>User Details Form</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 20px auto;
+        }
+        fieldset {
+            border: 2px solid #8e44ad;
+            border-radius: 10px;
+            padding: 25px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        legend {
+            font-size: 20px;
+            font-weight: bold;
+            color: #8e44ad;
+            padding: 0 10px;
+        }
+
+        div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: inline-block;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 5px;
+            font-size: 15px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="date"]:focus {
+            border-color: #8e44ad;
+            outline: none;
+            box-shadow: 0 0 5px rgba(142, 68, 173, 0.3);
+        }
+
+        button[type="submit"] {
+            background-color: #8e44ad;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #7d3c98;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>User Details</h1>
+
+    <form>
+        <fieldset>
+            <legend>User Information</legend>
+
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob">
+            </div>
+
+        </fieldset>
+
+        <br>
+        <button type="submit">Submit Information</button>
+    </form>
+</body>
+
+</html>
