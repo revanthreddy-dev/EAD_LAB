@@ -1,0 +1,54 @@
+
+
+.simple-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.simple-table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-bottom: 20px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: #f4f4f4;
+  box-shadow: 0 0 10px white;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+tbody{
+  color: #f4f4f4;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  color: black;
+  border-radius: 10px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.page-text {
+  margin: 0 15px;
+  font-size: 16px;
+  color: white;
+}
